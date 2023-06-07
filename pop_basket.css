@@ -1,0 +1,93 @@
+/* common */
+.d-flex {
+    display: flex;
+}
+
+
+
+/* layout */
+
+#pop_basket {
+    display: block;
+}
+
+.layer_cont {
+    margin: -140px 0px 0px -225px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 110;
+    /* 다른 창에 z-index에 따라 수치가 변할 수 있음. */
+    min-width: 450px;
+    overflow: hidden;
+    padding: 40px 40px 50px;
+    border: 1px solid #000;
+    background: #fff;
+    text-align: center;
+}
+
+.layer_cont>p {
+    margin: 0;
+    /* display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    padding: 48px 0 20px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.btn_wrap {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn_gray_small {
+    margin: 0 4px;
+    min-width: 140px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 38px;
+    background-color: #7d7d7d;
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid #7d7d7d;;
+    vertical-align: middle;
+    width: auto;
+}
+
+.btn_black_small {
+    margin: 0 4px;
+    min-width: 140px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 38px;
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid #7d7d7d;;
+    vertical-align: middle;
+    width: auto;
+}
+
+.btn_close {
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 53px;
+    height: 53px;
+    padding: 15px;
+    line-height: 99em;
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url(//static.wconcept.co.kr/web/images/common/layer_close_23.png) no-repeat;
+    background-size: 100%;
+    content: '';
+    border: none;
+}
