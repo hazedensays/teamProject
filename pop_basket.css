@@ -1,93 +1,73 @@
-/* common */
-.d-flex {
-    display: flex;
-}
-
-
-
-/* layout */
-
 #pop_basket {
     display: block;
 }
 
 .layer_cont {
-    margin: -140px 0px 0px -225px;
+    text-align: center;
     position: fixed;
     top: 50%;
     left: 50%;
-    z-index: 110;
-    /* 다른 창에 z-index에 따라 수치가 변할 수 있음. */
-    min-width: 450px;
-    overflow: hidden;
-    padding: 40px 40px 50px;
-    border: 1px solid #000;
-    background: #fff;
-    text-align: center;
+    transform: translate(-50%, -50%);
+    min-width: 330px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
 }
 
 .layer_cont>p {
     margin: 0;
-    /* display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-    padding: 48px 0 20px;
+    display: block;
+    padding: 20px;
     line-height: 1.4;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .btn_wrap {
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .btn_gray_small {
     margin: 0 4px;
-    min-width: 140px;
-    height: 40px;
+    height: 37px;
+    width: 140px;
+    min-width: 130px;
     font-size: 14px;
-    line-height: 38px;
+    line-height: auto;
     background-color: #7d7d7d;
     color: #fff;
     display: inline-block;
     padding: 0 20px;
-    border: 1px solid #7d7d7d;;
-    vertical-align: middle;
-    width: auto;
+    border: 1px solid #7d7d7d;
+    cursor: pointer;
 }
 
 .btn_black_small {
     margin: 0 4px;
-    min-width: 140px;
-    height: 40px;
+    width: 140px;
+    min-width: 130px;
+    height: 37px;
     font-size: 14px;
-    line-height: 38px;
+    line-height: auto;
     background-color: #000000;
     color: #fff;
     display: inline-block;
     padding: 0 20px;
-    border: 1px solid #7d7d7d;;
-    vertical-align: middle;
-    width: auto;
+    border: 1px solid #000000;
+    cursor: pointer;
 }
 
 .btn_close {
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    color: #4e4e4e;
+    display: inline-block;
     overflow: hidden;
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 53px;
-    height: 53px;
-    padding: 15px;
-    line-height: 99em;
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(//static.wconcept.co.kr/web/images/common/layer_close_23.png) no-repeat;
-    background-size: 100%;
-    content: '';
-    border: none;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
