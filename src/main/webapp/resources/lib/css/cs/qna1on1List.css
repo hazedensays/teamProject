@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.qna1on1_list table th:nth-child(1) {
+	min-width:60px;
+}
+
+.qna1on1_list table th:nth-child(2) {
+	min-width:70px;
+}
+
+.qna1on1_list table th:nth-child(3) {
+	min-width:70px;
+}
+
+.qna1on1_list table th:nth-child(6) {
+	min-width:70px;
+}
+
+.qna1on1_list table th:nth-child(7) {
+	min-width:70px;
+}
+
+.qna1on1_list table th:nth-child(8) {
+	min-width:50px;
+}
+
+.qna1on1_list #hiddenContentsQ {
+	width:200px;
+    display:inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

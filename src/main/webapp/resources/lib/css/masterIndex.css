@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#master_wrap button {
+	cursor:pointer;
+	padding: 3px 5px;
+}
+
+body {
+    font-size: 14px;
+}
+
+span.required{
+	font-size:12px;
+	margin-left:3px;
+	color:orangered;
+}
+
+/* Header Start */
+
+header {
+    width: 200px;
+    height: 100vh;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .master_logo {
+	width:160px;
+    margin: 40px 20px;
+}
+
+header .master_logo > a{
+	display:block;
+	text-indent: -9999em;
+}
+
+header .master_logo img{
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+header .master_gnb {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+header .master_gnb li a {
+    display: block;
+    color: #fff;
+}
+
+header .master_gnb>li>a {
+    padding: 10px 0;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+}
+
+header .master_gnb>li>a {
+    font-weight: bold;
+}
+
+header .master_gnb li:hover>a {
+    color: orangered;
+}
+
+header .master_gnb li ul {
+    width: 100%;
+    display: none;
+}
+
+header .master_gnb li ul li a {
+    padding: 7px 0;
+}
+
+/* 공통 설정 */
+
+#master_wrap main {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+    padding: 30px;
+    box-sizing:border-box;
+}
+
+#master_wrap main table {
+    border-collapse: collapse;
+    text-align:center;
+}
+
+#master_wrap main table th,
+#master_wrap main table td {
+    border: 1px solid #eee;
+    padding:3px;
+}
+
+#master_wrap main table th {
+    background-color: #ddd;
+}
+
+main .m_button {
+    display: inline-block;
+    border: 1px solid #aaa;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #eee;
+}
+
+main .m_button:hover {
+    background-color: #ddd;
+}
+
+.master_title {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* list 공통 설정 */
+
+.master_list table {
+    width: 100%;
+}
+
+.master_list table th {
+    height: 37px;
+}
+
+.master_list table img{
+	width:50px;
+}
+
+/* save, detail 공통 설정 */
+
+.master_save table{
+	min-width:450px;
+}
+
+#master_wrap .master_save table th,
+#master_wrap .master_save table td {
+    padding : 7px 10px;
+}
+
+#master_wrap .master_save table {
+	text-align:left;
+}
+
+.pageNation{
+	text-align:center;
+	margin-top:30px;
+}
+
+.firstB, 
+.ltB,
+.gtB,
+.lastB{
+	margin: 0 3px;
+}
+
+.pageNation strong{
+	color:orangered;
+}

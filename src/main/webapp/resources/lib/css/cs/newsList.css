@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.news_list table th:nth-child(1) {
+	min-width:80px;
+}
+
+.news_list table th:nth-child(2) {
+	min-width:200px;
+}
+
+.news_list table th:nth-child(3) {
+	min-width:400px;
+}
+
+.news_list table th:nth-child(4) {
+	min-width:70px;
+}
+
+.news_list table th:nth-child(5) {
+	min-width:60px;
+}
+
+.news_list .n_titleW {
+	width:150px
+}
+
+.news_list .n_contentW {
+	width:350px
+}
+
+.news_list #hiddenContentsN {
+    display:inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

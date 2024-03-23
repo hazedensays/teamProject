@@ -1,0 +1,154 @@
+.modal_cover {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal_order {
+    background-color: #fff;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal_order h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    text-align: left;
+}
+
+.modal_order table {
+    width: 500px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.modal_order div:not(:nth-child(3))>table>tr {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+.modal_order div:nth-child(1)>table>tr:nth-child(1),
+.modal_order div:nth-child(2)>table>tr:nth-child(1) {
+    border-bottom: none;
+}
+
+.modal_order div tr {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.modal_order th {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.modal_order div th,
+.modal_order div td {
+    height: 25px;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.modal_order td.total {
+    height: 30px;
+    text-align: right;
+    padding-right: 5px;
+
+}
+
+.modal_order div th {
+    background-color: #eee;
+}
+
+.modal_order div:nth-child(4)>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.modal_order div:nth-child(4)>div>a {
+    margin-bottom: 3px;
+}
+
+.modal_order .orderDetail {
+    display: block;
+    max-height: 58px;
+    overflow-y: auto;
+}
+
+.modal_order div:first-child th {
+    width: 100px;
+}
+
+.modal_order div:nth-child(2) th,
+.modal_order div:nth-child(2) tr:nth-child(1) td:nth-child(2) {
+    width: 120px;
+}
+
+.modal_order div:nth-child(3)>table>tbody>tr>th:not(:last-child),
+.modal_order div:nth-child(3)>table>tbody>tr>td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.modal_order div:nth-child(3)>table>tr:nth-child(1)>th:last-child {
+    width: 16.8px;
+}
+
+.modal_order div:nth-child(3)>table>tr>th:nth-child(1),
+.modal_order div:nth-child(3)>table>tr>th:nth-child(3),
+.modal_order div:nth-child(3)>table>tbody>tr>td:nth-child(1),
+.modal_order div:nth-child(3)>table>tbody>tr>td:nth-child(3) {
+    width: 30%;
+}
+
+.modal_order div:nth-child(3)>table>tr>th:nth-child(2),
+.modal_order div:nth-child(3)>table>tr>th:nth-child(4),
+.modal_order div:nth-child(3)>table>tbody>tr>td:nth-child(2),
+.modal_order div:nth-child(3)>table>tbody>tr>td:nth-child(4) {
+    width: 20%;
+}
+
+.modal_order div:nth-child(4)>table>tr>th {
+    width: 20%;
+}
+
+.modal_order div:nth-child(4)>table>tr>td {
+    width: 30%;
+}
+
+
+.modal_order .lastP {
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    height: 35px;
+}
+
+.strPoint {
+    color: orangered;
+}
+
+.modal_order .Modal_btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.modal_order .Modal_btn>button {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #000;
+}
+
+.modal_order .Modal_btn button.close {
+    background-color: #000;
+    color: #fff;
+    margin: 0 10px;
+}

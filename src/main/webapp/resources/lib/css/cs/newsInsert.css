@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#master_wrap .news_insert tr:last-child td{
+	border:none;
+	padding: 10px 0;
+}
+
+.news_insert {
+	width:700px;
+}
+
+.news_insert textarea{
+	width:600px;
+	height:180px;
+	resize:none;
+}

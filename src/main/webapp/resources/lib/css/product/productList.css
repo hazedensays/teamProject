@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+.product_list{
+	min-width:630px;
+}
+
+.product_list table th:not(:nth-child(3)){
+	width:12%;
+}

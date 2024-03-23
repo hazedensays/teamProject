@@ -1,0 +1,43 @@
+.modal_cover {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+.postmodal{
+    border: 1px solid;
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 800px;
+    background-color: #eee;
+}
+
+
+/* ==================버튼==================================== */
+
+
+
+.close_button,
+.checkout_close_button,
+.checkout_submit_button{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 120px;
+    line-height: 35px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

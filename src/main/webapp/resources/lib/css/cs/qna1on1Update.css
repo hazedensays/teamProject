@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#master_wrap .qna1on1_update tr:last-child td{
+	border:none;
+	padding: 10px 0;
+}
+
+.qna1on1_update {
+	width:700px;
+}
+
+.qna1on1_update img{
+	display:block;
+	width:300px;
+	margin-bottom:10px;
+	border:1px solid #000;
+}
+
+.qna1on1_update textarea{
+	width:600px;
+	height:180px;
+	resize:none;
+}
