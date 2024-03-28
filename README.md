@@ -19,9 +19,9 @@
 - 3차 프로젝트 : 2023.11 ~ 2023.12  
 
 ### ⚙️ 개발환경
-- **운영체제** : Window 10  
+- **OS** : Window 10  
 - **IDE** : Eclipse, VS Code, MySql(8.0.28) Workbench  
-- **형상관리 도구** : GitHub, Sourcetree  
+- **SCM** : GitHub, Sourcetree  
 - **Language** : Java, JSP, Servlet, JavaScript, HTML5, CSS3  
 - **Framework** : Springboot(2.x), React, JPA  
 - **Web Server** : Apache tomcat 9.0  
